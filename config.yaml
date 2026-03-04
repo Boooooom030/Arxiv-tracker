@@ -1,45 +1,10 @@
 categories: ["cs.CR", "cs.OS", "cs.AI", "cs.SE", "cs.PL", "cs.OH"]
 keywords:
-  # 模糊测试
-  - "fuzzing"
-  - "fuzz testing"
-  - "fuzz test"
-  - "coverage-guided fuzzing"
-  - "greybox fuzzing"
-  - "smart fuzzing"
+  - "fuzzing"                # 覆盖模糊测试
+  - "reverse engineering"    # 覆盖逆向工程、二进制分析
+  - "Windows security"       # 覆盖Windows安全、内核安全
+  - "anti-cheat"             # 覆盖反作弊/游戏安全
   
-  # 逆向工程
-  - "reverse engineering"
-  - "binary analysis"
-  - "malware analysis"
-  - "decompilation"
-  - "binary instrumentation"
-  - "executable analysis"
-
-  # Windows 安全
-  - "Windows security"
-  - "Windows kernel"
-  - "Windows driver"
-  - "kernel security"
-  - "user/kernel isolation"
-
-  # 反作弊 / 游戏安全
-  - "anti-cheat"
-  - "game security"
-  - "cheat detection"
-  - "anti-tamper"
-  - "game hacking"
-
-  # 通用安全 / 漏洞
-  - "vulnerability detection"
-  - "vulnerability discovery"
-  - "exploit"
-  - "0-day"
-  - "zero-day"
-  - "memory safety"
-  - "control-flow integrity"
-  - "sandbox escape"
-
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
 #   - "LLM"
