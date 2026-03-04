@@ -1,12 +1,44 @@
-categories: ["cs.CV", "cs.LG", "cs.AI"]
+categories: ["cs.CR", "cs.OS", "cs.AI", "cs.SE", "cs.PL"，"cs.OH"]
 keywords:
-  - "open vocabulary"
-  - "open-vocabulary"
-  - "open vocabulary segmentation"
-  - "open-vocabulary segmentation"
-  - "vision language model"
-  - "training-free"
-  - "training free"
+  # 模糊测试
+  - "fuzzing"
+  - "fuzz testing"
+  - "fuzz test"
+  - "coverage-guided fuzzing"
+  - "greybox fuzzing"
+  - "smart fuzzing"
+  
+  # 逆向工程
+  - "reverse engineering"
+  - "binary analysis"
+  - "malware analysis"
+  - "decompilation"
+  - "binary instrumentation"
+  - "executable analysis"
+
+  # Windows 安全
+  - "Windows security"
+  - "Windows kernel"
+  - "Windows driver"
+  - "kernel security"
+  - "user/kernel isolation"
+
+  # 反作弊 / 游戏安全
+  - "anti-cheat"
+  - "game security"
+  - "cheat detection"
+  - "anti-tamper"
+  - "game hacking"
+
+  # 通用安全 / 漏洞
+  - "vulnerability detection"
+  - "vulnerability discovery"
+  - "exploit"
+  - "0-day"
+  - "zero-day"
+  - "memory safety"
+  - "control-flow integrity"
+  - "sandbox escape"
 
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
@@ -45,13 +77,13 @@ email:
 llm:
   provider: "openai-compatible"     # 兼容 OpenAI SDK 的服务
   # 硅基流动的版本
-  base_url: "https://api.siliconflow.cn"
-  model: "Qwen/Qwen2.5-7B-Instruct"
-  api_key_env: "OPENAI_COMPAT_API_KEY"
+  # base_url: "https://api.siliconflow.cn"
+  # model: "Qwen/Qwen2.5-7B-Instruct"
+  # api_key_env: "OPENAI_COMPAT_API_KEY"
   # Deepseek的版本
-  # base_url: "https://api.deepseek.com"
-  # model: "deepseek-chat"
-  # api_key_env: "DS_API_KEY"
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-chat"
+  api_key_env: "DS_API_KEY"
   
 
   system_prompt_en: |
