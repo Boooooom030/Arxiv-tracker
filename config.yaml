@@ -1,4 +1,4 @@
-categories: ["cs.CR", "cs.OS", "cs.AI", "cs.SE", "cs.PL", "cs.OH"]
+categories: ["cs.CR", "cs.OS", "cs.SE", "cs.PL", "cs.OH"]
 keywords:
   - "fuzzing"                # 覆盖模糊测试
   - "reverse engineering"    # 覆盖逆向工程、二进制分析
